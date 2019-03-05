@@ -1,0 +1,52 @@
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .tabs{
+    float: left;
+    display: block;
+    border-radius: 5px;
+    color:white;
+    padding: 14px 16px;
+    text-align: center;
+    width:10%;
+    text-decoration: none;
+}
+.tabs:hover{
+    color: black;
+    padding: 14px 16px;
+    background-color: #007bff;
+    text-decoration: none;
+}
+.activeTab{
+    color: black;
+    background-color: #007bff;
+} 
+.message{
+  color:white;
+  float: right;
+  font-style: italic;
+  margin-top:1%;
+} 
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  

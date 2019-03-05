@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app='tourOfHeroApp'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Third party javaScript libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+        <script src="angular.min.js"></script>
+        <script src="angular-ui-router.min.js"></script>
+        <!-- Application module -->
+        <script src="js/module.js"></script>
+        <!-- Routing application -->
+        <script src='js/routing.js'></script>
+        <!-- Controllers -->
+        <script src="js/ctrl/loginController.js"></script>
+        <script src="js/ctrl/navbarContoller.js"></script>
+        <script src="js/ctrl/heroListController.js"></script>
+        <script src="js/ctrl/herodetailsController.js"></script>
+        <!-- Service -->
+        <script src="js/service/httpService.js"></script>
+        <!-- Third party css libraries -->
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/dashboard.css">
+        <link rel="stylesheet" href="css/herolist.css">
+        <link rel="stylesheet" href="css/herodetails.css">
+        
+        <title>Tour of Heroes</title>
+    </head>
+    <body>
+        <ui-view></ui-view>
+    </body>
+</html>

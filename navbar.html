@@ -1,0 +1,8 @@
+<div class="topnav">
+        <div class='tabs' ng-if='checkuser();' ui-sref='.dashboard' ui-sref-active='activeTab'>Dashboard</div>
+        <div class='tabs' ui-sref='.herolist' ui-sref-active='activeTab'>Heroes</div>
+        <div class='tabs' style="float: right;" ui-sref='logout' ui-sref-active='activeTab'>Logout</div> 
+        <div class='message'  ng-show="checkuser();">Welcome Admin</div>
+        <div  class='message' ng-hide="checkuser();">Welcome User</div>   
+</div> 
+<ui-view></ui-view>

@@ -1,0 +1,1 @@
+var tourApp= angular.module('tourOfHeroApp',['ui.router']);

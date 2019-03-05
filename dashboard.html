@@ -1,0 +1,14 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div id='tabs' ui-sref='dashboard' ui-sref-active='activeTab'>Dashboard</div> 
+        Add ngif 
+        <div id='tabs' ui-sref='.herolist' ui-sref-active='activeTab'>Heroes</div>
+</nav>      
+<ui-view></ui-view> -->
+<div class='container-fluid'>
+<h1>Top 4 heroes:</h1>
+<br/>
+        <div class="card topfourspan"  ui-sref='.herodetails({id: $index})' ng-repeat='x in array|limitTo:4'>
+                {{array[$index].first_name}} {{array[$index].last_name}}
+        </div>
+</div>
+<ui-view></ui-view>

@@ -1,0 +1,32 @@
+<div class='fromdiv'>
+<div class="container fromcontainer">
+    <div class="carddisplay d-flex justify-content-center">
+        <div class="card carddiv">
+            <div class="card-header">
+                <h3 class='heading'>Login From</h3>
+            </div>
+            <div class='card-body'>
+                <form novalidate class="css-form" autocomplete="off"> 
+                    <div class='input-group from-group'>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                        </div>
+                        <input type="email" class='form-control' placeholder='xyz@gmail.com' ng-model="ctrl.email" name="uemail" required />
+                    </div>
+                    <br/>
+                    <div class='input-group from-group'>
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-key"></i></span>
+                        </div>
+                        <input type="password" class='form-control' placeholder='***********' ng-model="ctrl.password" required />
+                    </div>
+                    <br/>
+                    <div class="from-group">
+                        <input type="submit" class="btn btn-outline-primary float-right" ng-click="onSubmit();" value="Sign in" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

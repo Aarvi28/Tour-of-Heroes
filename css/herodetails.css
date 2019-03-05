@@ -1,0 +1,16 @@
+/* Styling for validation */
+.css-form input.ng-invalid.ng-touched {
+    background-color: rgb(233, 173, 173);
+  }
+.css-form input.ng-valid.ng-touched {
+    border: 2px solid #78FA89;
+  }
+.css-form select.ng-invalid.ng-touched {
+    background-color: rgb(233, 173, 173);
+}
+.css-form select.ng-valid.ng-touched {
+    border: 2px solid #78FA89;
+}
+.messageerror{
+    color: red;
+}

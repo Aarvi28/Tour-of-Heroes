@@ -1,0 +1,15 @@
+/* Style sheet for herolist in admin and user*/
+.listelement1, .listelement2{
+    width:15%;
+    margin:0.5%;
+}
+.listelement2:hover{
+    color:red;
+    font-size:16px;
+    font-weight:bold;
+}
+.listelement1:hover{
+    color:green;
+    font-size:16px;
+    font-weight:bold;
+}
